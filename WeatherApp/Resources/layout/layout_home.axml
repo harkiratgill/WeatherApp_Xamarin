@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:background="@drawable/back">
+
+	<TimePicker  
+      android:layout_height="wrap_content"  
+      android:layout_width="match_parent" 
+		android:layout_margin="2sp"
+		android:headerBackground="@android:color/transparent"
+      android:id="@+id/TimePicker1" />  
+
+	<Button
+		android:id="@+id/button_Zip"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Zip Search"
+		android:fontFamily="@string/abc_action_bar_home_description"
+		android:textColor="#FFF"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_margin="10sp"
+		android:background="@drawable/button"
+		android:textSize="26sp"
+		android:gravity="center" />
+
+	<Button
+		android:id="@+id/button_City"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="City Search"
+		android:fontFamily="@string/abc_action_bar_home_description"
+		android:textColor="#FFF"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_margin="10sp"
+		android:background="@drawable/button"
+		android:textSize="26sp"
+		android:gravity="center" />
+</LinearLayout>
